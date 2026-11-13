@@ -49,3 +49,7 @@ desktop.ini
 .idea/
 *.swp
 *.swo
+# Protect all environment files
+.env
+.env.*
+!.env.example
