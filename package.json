@@ -1,0 +1,22 @@
+{
+  "name": "coastguard-ai",
+  "version": "2.0.0",
+  "description": "Crowdsourced Coastal Hazard Intelligence and AI Incident Clustering System (Smart India Hackathon)",
+  "scripts": {
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "backend:start": "python backend/main.py",
+    "test": "python test_direct_engine.py"
+  },
+  "keywords": [
+    "coastal-hazards",
+    "dbscan-clustering",
+    "haversine-distance",
+    "fastapi",
+    "react",
+    "leaflet",
+    "smart-india-hackathon"
+  ],
+  "author": "CoastGuard AI Team",
+  "license": "MIT"
+}
